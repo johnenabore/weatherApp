@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+        <div id="card">
+          <video id="background-video" autoplay muted loop playsinline>
+            <source src="video/Neutral Color Minimal Animated Search Bar Reminder Quotes Video.mp4" type="video/mp4">
+            <source src="video/Neutral Color Minimal Animated Search Bar Reminder Quotes Video.ogv" type="video/ogv">
+            <source src="video/Neutral Color Minimal Animated Search Bar Reminder Quotes Video.webm" type="video/webm">
+            Your browser does not support the video tag.
+         </video>
+            <div id="searchBar">
+                <input type="text" id="text" placeholder="Search" />
+                <button type="button" id="button">
+                  <img src="images/search.png" alt="" srcset="" />
+                </button>
+              </div>
+
+                <div id="emoticonWeather"></div>
+                <p id="temp"></p>
+                <p id="cityName"></p>
+                <p id="countryName"></p>
+
+              <div id="containerBottom" >
+
+                  <div id="humidContainer" >
+                    <img id="humidImage" alt="">
+                    <p id="humid"></p>
+                    <p id="humidText" style="font-size: .9rem;"></p>
+                  </div>
+
+                  <div id="windContainer" >
+                        <img id="windImage">
+                        <p id="wind"></p>
+                        <p id="windSpeedText" style="font-size: .9rem;"></p>
+                  </div>
+
+                  <div id="feelsLikeContainer">
+                    <img id="feelsLikeimg">
+                        <p id="feelsLikeText"></p>
+                        <p id="feelsLike"></p>
+                        <p id="feelsLikeDescription"></p>
+                  </div>
+
+                  <div id="sunRiseSetContainer">
+                    <img id="riseSetimg">
+                    <p id="riseSetText"></p>
+                    <p id="timeRise"></p>
+                    <p id="sunset"></p>
+                    <p id="pst"></p>
+                  </div>
+              </div>
+
+              <div id="dummyPrompt">
+                <div class="title-container">
+                  <div id="ball"></div>
+                  <h1 id="titlePage">Weather Vibe</h1>
+                </div>
+                <div>
+                  <h2>Provides Accurate Weather Updates at Your Fingertips</h2>
+                  <p id="description">simply enter the city name or places</p>
+                  </div>
+              <p style="color: red; font-size: 1rem; font-weight: bold;">STILL ON DEVELOPMENT!</p>
+              <h3>Dev: Enabore, John Gabrielle</h3>  
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
